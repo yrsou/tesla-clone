@@ -1,0 +1,178 @@
+.header{
+     display: flex;
+     /*  рфзмещает дочерние элементы по разным сторонам браузера */
+    justify-content:space-between;
+    padding-top:  16px;
+
+}
+
+.header__right {
+      display: flex;
+}
+
+.header__right li{
+       padding-right: 7px;
+       font-weight: 600;
+}
+
+.form__container{
+        display: flex;
+         justify-content: center;
+         flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+     max-width: 335px;
+     justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.form__title {
+     padding: 0 0 8 px 0;
+     font-size: 34px;
+     font-weight: 500;
+     letter-spacing: -0.6px;
+     margin-bottom: 25px;
+}
+
+.form p {
+     font-weight: 500;
+      font-size: 14px;
+      color: #5c5d61;
+      padding-left:  20px;
+}
+
+.form input {
+     width: 330px;
+     margin: 20px 0 20px 0;
+     height: 40px;
+     border-radius: 30px;
+     border: none;
+     outline: none;
+     background:  #f3dddd;
+     padding-left:  20px;
+     font-weight: 700px;
+     color: #5c5d61;
+     
+}
+
+.form input :focus {
+   border: 1px solid #e0c3c3;
+   
+}
+
+.form button {
+     margin: 8px 0;
+     height: 40px;
+     border-radius: 30px;
+     text-transform: uppercase;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     background: #3d69e1;
+     color: #fff;
+     font-weight: 600;
+}
+
+.form button:hover {
+    background: #3558bb; 
+
+}
+
+.form button:last-child {
+    background:  #f3dddd;
+    color: #060606;
+}
+
+.forgot {
+     text-align: center;
+     padding-top: 25px;
+}
+
+.border {
+      border-bottom: 1px solid #333;
+      color: #393c41;
+      font-size: 14px;
+}
+
+.or {
+     display: flex;
+     margin-top: 50px;
+}
+
+.or span {
+      margin: 0 10px;
+      font-weight: 500px;
+      color:#393c41;
+}
+
+
+
+.or div {
+     width: 130px;
+     height:1px;
+     background: #333;
+     align-items: center;
+     justify-content:center;
+     
+}
+
+.footer__btn {
+       display: flex;
+       justify-content: center;
+}
+
+.footer__btn button {
+     height: 40px;
+     border-radius: 30px;
+     width:330px;
+     cursor:pointer;
+     background: transparent;
+     border: 4px solid #181b21;
+     font-size: 12px;
+     font-weight: 500;
+     text-transform: uppercase;
+     margin-top: 50px;
+     transition: .4s all easy-in;
+}
+
+.footer__btn button:hover{
+        color: #fff;
+        background: #181b21
+}
+
+.footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+}
+
+.footer__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+
+}
+
+.footer__item li {
+       padding-right: 12px;
+       font-style: 14px;
+       font-weight: 500;
+       color: #393c41;
+       border-bottom: 2px solid transparent;
+       cursor:pointer;
+
+}
+
+.footer__item li:hover {
+     border-bottom: 2px solid #000;
+
+}

@@ -1,0 +1,40 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+
+}
+
+.block {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.block__item {
+    width: 420px;
+    height: 420px;
+    background: brown;
+    margin: 20px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media all and (max-windth: 992px){
+      .block__item {
+        padding: 0 20px;
+        color:burlywood;
+         font-weight: 400px;
+      }
+
+}
+
+@madia all and (max-width:385px) {
+    .block__item p{
+        font-size: 18px;
+    }
+    .block__item {
+        height: 280px;
+    }
+}
